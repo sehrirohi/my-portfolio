@@ -65,7 +65,10 @@ function Hero() {
           <div className="portrait-ring">
             <div className="portrait-inner">
               <div className="portrait-placeholder">
-                 <img src="/profile.jpg" alt="Sehrish Rohi" />
+                 <img
+  src={`${import.meta.env.BASE_URL}profile.jpg`}
+  alt="Sehrish Rohi"
+/>
                 <small>React Developer</small>
               </div>
             </div>

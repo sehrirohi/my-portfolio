@@ -11,7 +11,7 @@ function Projects() {
       description:
         "A recipe discovery application where users can explore recipes, search for dishes and view ingredients and cooking instructions.",
       technologies: ["React", "JavaScript", "CSS"],
-      image: "/projects/recipe-finder.png",
+      image: `${import.meta.env.BASE_URL}projects/recipe-finder.png`,
     },
     {
       number: "02",
@@ -20,7 +20,7 @@ function Projects() {
       description:
         "A modern shopping application with product browsing, user authentication, shopping cart and order management.",
       technologies: ["React", "Firebase", "Firestore"],
-      image: "/projects/ecommerce.png",
+      image: `${import.meta.env.BASE_URL}projects/ecommerce.png`,
     },
     {
       number: "03",
@@ -29,7 +29,7 @@ function Projects() {
       description:
         "A movie discovery application that allows users to search for movies and explore movie details.",
       technologies: ["React", "TMDB API", "CSS"],
-      image: "/projects/movie.png",
+      image: `${import.meta.env.BASE_URL}projects/movie.png`,
     },
     {
       number: "04",
@@ -38,7 +38,7 @@ function Projects() {
       description:
         "An interactive quiz application with multiple-choice questions, score tracking and a user-friendly interface.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      image: "/projects/quiz-app.png",
+      image: `${import.meta.env.BASE_URL}projects/quiz-app.png`,
     },
   ];
 
