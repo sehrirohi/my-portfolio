@@ -1456,7 +1456,15 @@
 
   line-height: 1.8;
 }
+.education-cgpa {
+  margin: 12px 0;
+  font-size: 15px;
+  color: var(--text-color);
+}
 
+.education-cgpa strong {
+  color: #8b5cf6;
+}
 /* =========================================
    CONTACT
 ========================================= */

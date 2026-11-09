@@ -26,6 +26,9 @@ function Education() {
           <p>
             Bachelor's Degree in Mathematics
           </p>
+           <p className="education-cgpa">
+            <strong>CGPA:</strong> 3.72 / 4.00
+          </p>
 
           <p className="education-description">
             A strong foundation in logical thinking, analytical
