@@ -3,10 +3,10 @@ function About() {
     <section className="about-section section" id="about">
       <div className="section-heading">
         <p className="section-label">ABOUT ME</p>
-        <h2>
+        <h1>
           Turning Ideas Into
           <span> Beautiful Websites</span>
-        </h2>
+        </h1>
       </div>
 
       <div className="about-grid">
@@ -45,26 +45,26 @@ function About() {
       </div>
 
       <div className="stats-row">
-        <div className="stat-item">
-          <strong>05+</strong>
-          <span>Projects Built</span>
-        </div>
+  <div className="stat-item">
+    <strong>06+</strong>
+    <span>Technologies</span>
+  </div>
+ 
+  <div className="stat-item">
+    <strong>100%</strong>
+    <span>Passion</span>
+  </div>
 
-        <div className="stat-item">
-          <strong>06+</strong>
-          <span>Technologies</span>
-        </div>
+  <div className="stat-item">
+    <strong>01</strong>
+    <span>Creative Developer</span>
+  </div>
 
-        <div className="stat-item">
-          <strong>100%</strong>
-          <span>Passion</span>
-        </div>
-
-        <div className="stat-item">
-          <strong>01</strong>
-          <span>Developer</span>
-        </div>
-      </div>
+  <div className="stat-item">
+    <strong>24/7</strong>
+    <span>Learning Mindset</span>
+  </div>
+</div>
     </section>
   );
 }

@@ -724,7 +724,7 @@
 
 .about-intro,
 .about-content {
-  padding: 55px 45px;
+  padding: 50px 40px;
 }
 
 .about-intro {
@@ -732,7 +732,7 @@
 }
 
 .about-number {
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 
   color: var(--sage);
 

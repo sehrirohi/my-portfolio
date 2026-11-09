@@ -63,7 +63,7 @@ function Services() {
 
             <p>{service.description}</p>
 
-            <span className="service-arrow">↗</span>
+            <span className="service-arrow"></span>
           </article>
         ))}
       </div>

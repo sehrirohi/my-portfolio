@@ -15,7 +15,7 @@ function Contact() {
     );
 
     window.location.href =
-      `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+      `mailto:sehrirohi@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -23,10 +23,10 @@ function Contact() {
       <div className="contact-intro">
         <p className="section-label">GET IN TOUCH</p>
 
-        <h2>
+        {/* <h2>
           Let's Work
           <span> Together.</span>
-        </h2>
+        </h2> */}
 
         <p>
           Have a project in mind or want to talk about web
@@ -34,7 +34,7 @@ function Contact() {
         </p>
 
         <div className="contact-details">
-          <a href="mailto:your-email@example.com">
+          <a href="mailto:sehrirohi@gmail.com">
             <span className="contact-icon">@</span>
 
             <div>
@@ -69,7 +69,7 @@ function Contact() {
             </div>
           </a> */}
           {/* WhatsApp Contact */}
-<div className="whatsapp-contact">
+{/* <div className="whatsapp-contact">
   <span>WhatsApp</span>
   <a
     href="https://wa.me/923001234567"
@@ -79,12 +79,12 @@ function Contact() {
     <i className="devicon-whatsapp-plain"></i>
     Message Me on WhatsApp ↗
   </a>
-</div>
+</div> */}
         </div>
       </div>
 
       <form className="contact-form" onSubmit={handleSubmit}>
-        <div className="form-row">
+        {/* <div className="form-row">
           <label>
             Your Name
             <input
@@ -104,8 +104,8 @@ function Contact() {
               required
             />
           </label>
-        </div>
-
+        </div> */}
+{/* 
         <label>
           Message
           <textarea
@@ -114,10 +114,10 @@ function Contact() {
             placeholder="Tell me about your project..."
             required
           ></textarea>
-        </label>
+        </label> */}
 
         <button type="submit" className="form-button">
-          Send Message
+          Send Email
           <span>→</span>
         </button>
       </form>
