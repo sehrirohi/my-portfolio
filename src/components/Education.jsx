@@ -19,7 +19,7 @@ function Education() {
         <div className="education-icon">✦</div>
 
         <div className="education-content">
-          <span>2021 — 2025</span>
+          <span>2022 — 2026</span>
 
           <h3>BS Mathematics</h3>
 
